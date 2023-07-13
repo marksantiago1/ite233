@@ -19,8 +19,8 @@
 <BODY BGCOLOR = "white">
 <form>
     <center>
-    <p id="changetitle">JS Button Function</p>
-    <p id="changetext">The Airbus A321neo is a single-aisle airliner created by Airbus. The A321neo is developed from the Airbus A321 & Airbus A320neo family. It is the longest stretched fuselage of Airbus's A320 series, & the newest version of the A321, with the original A321ceo debuting in 1994 with Lufthansa.</p>
+    <h1 id="changetitle">JS Button Function</h1>
+    <p id="changetext">What is Airbus a330?</p>
     <div>
     <input type = "button" value = "RED" onClick = "document.bgColor = 'red'">
     <input type = "button" value = "ORANGE" onClick = "document.bgColor = 'orange'">
