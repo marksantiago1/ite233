@@ -20,7 +20,7 @@
 <form>
     <center>
     <h1 id="changetitle">JS Button Function</h1>
-    <h1 id="changetext">What is Airbus a330?</h1>
+    <p id="changetext">What is Airbus a330?</p>
     <div>
     <input type = "button" value = "RED" onClick = "document.bgColor = 'red'">
     <input type = "button" value = "ORANGE" onClick = "document.bgColor = 'orange'">
