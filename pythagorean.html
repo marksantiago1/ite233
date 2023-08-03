@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h2 id="areasquare"></h2>
+    <h2 id="areaofcircle"></h2>
+    <h2 id="circumferenceofcircle"></h2>
+    <h2 id="pythagorean"></h2>
+    <script>
+        
+        var a = 14;
+        var squareA = a**2
+        document.getElementById("areasquare").innerHTML= "Square Area: " + squareA
+
+    </script>
+
+    <script>
+        
+        var r = 8
+        var pie = 3.14
+        var areaCircle = pie * (r**2)
+        document.getElementById("areaofcircle").innerHTML= "Area of the circle: " + areaCircle
+
+    </script>
+
+    <script>
+
+        var r = 13.5
+        var pie = 3.14
+        var circumference = 2 * pie * r
+        document.getElementById("circumferenceofcircle").innerHTML= "Circumference of a circle: " + circumference
+
+    </script>
+
+    <script>
+
+        var a = 21
+        var b = 14
+        var sA = a ** 2
+        var sB = b ** 2
+        var sAB = sA + sB
+        var c = (Math.sqrt(sAB))
+        document.getElementById("pythagorean").innerHTML= "Pythagorean theorem: " + c
+
+
+    </script>
+</body>
+</html>
